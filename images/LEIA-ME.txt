@@ -1,0 +1,2 @@
+Coloca aqui a captura do dashboard do Power BI com o nome: dashboard.png
+(O README já aponta para images/dashboard.png)
