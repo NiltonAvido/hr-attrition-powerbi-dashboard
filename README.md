@@ -30,20 +30,20 @@ função, satisfação, género e experiência.
 
 Todos os valores abaixo foram calculados diretamente sobre o dataset.
 
-**Horas extraordinárias — o sinal mais forte**
+**Horas extraordinárias: o sinal mais forte**
 
 ![Attrition por horas extra](images/attrition_overtime.png)
 
 Quem faz horas extra sai a **31,2 %**, contra **10,4 %** de quem não faz — cerca
 do triplo.
 
-**Faixa etária — os mais novos saem mais**
+**Faixa etária: os mais novos saem mais**
 
 ![Attrition por faixa etária](images/attrition_idade.png)
 
 A faixa dos **18–25 anos** tem a taxa mais alta (36,6 %), decrescendo com a idade.
 
-**Função — funções comerciais e técnicas de base no topo**
+**Função: funções comerciais e técnicas de base no topo**
 
 ![Attrition por função](images/attrition_funcao.png)
 
@@ -66,14 +66,14 @@ em volume de saídas, *Administration* concentra 36 % do total.
 O ficheiro [`powerbi/RH_Project2.pbix`](powerbi/RH_Project2.pbix) contém o
 relatório completo. O processo:
 
-1. **Extração** — importação do CSV para o Power BI Desktop.
-2. **Transformação (Power Query)** — remoção de colunas constantes
+1. **Extração** - importação do CSV para o Power BI Desktop.
+2. **Transformação (Power Query)** - remoção de colunas constantes
    (`EmployeeCount`, `Over18`, `StandardWorkingHours`), tratamento de valores em
    falta, normalização de categorias inconsistentes (`BusinessTravel`) e correção
    de tipos de dados.
-3. **Medidas (DAX)** — KPIs como taxa de attrition
+3. **Medidas (DAX)** - KPIs como taxa de attrition
    (`DIVIDE([Total Saídas], [Total Colaboradores])`), contagens e médias.
-4. **Visualização** — KPIs, gráficos de anel e barras, matriz de satisfação com
+4. **Visualização** - KPIs, gráficos de anel e barras, matriz de satisfação com
    formatação condicional, e segmentadores interativos por faixa etária e
    departamento.
 
