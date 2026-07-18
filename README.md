@@ -4,7 +4,7 @@ Análise da rotatividade de colaboradores com um dashboard interativo em **Power
 sobre um dataset público de RH de **1480 colaboradores**.
 
 > **Fonte dos dados:** dataset público de RH (variante enriquecida do *IBM HR
-> Attrition*), obtido no Kaggle — dados para fins **educativos**, não dados reais
+> Attrition*), obtido no Kaggle, dados para fins **educativos**, não dados reais
 > de uma empresa.
 
 ## Dashboard
